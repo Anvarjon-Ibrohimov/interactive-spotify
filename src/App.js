@@ -1,7 +1,14 @@
+import React from "react";
+// adding componets
+import Song from "./components/Song";
+import Player from "./components/Player";
+// add styles
+import "./styles/app.scss";
 function App() {
   return (
     <div className="App">
-      <h1>I am Spotify</h1>
+      <Song />
+      <Player />
     </div>
   );
 }
